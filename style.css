@@ -1,0 +1,36 @@
+/* sintaxis
+selecto {
+    propiedad:valor;
+} */
+/* propiedades de forma */
+header {
+    width: 1000px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 20px;
+    border: 5px solid blue;
+    padding: 20px;
+}
+#logo {
+    width: 200px;
+    height: 60px;
+    background-color: lightblue;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+/*propiedades de color */
+.grupo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+#c1 {
+    background-color: brown;
+}
+#c2 {
+    background: #ff00ff;
+}
+#c3 {
+    background: rgba(255, 0, 255, .5);
+}
